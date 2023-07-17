@@ -1,0 +1,29 @@
+public class MathSingleton {
+	private static MathSingleton  mathinstance ;
+	private int variable1;
+	private int variable2;
+	private MathSingleton() {};
+	
+	public static MathSingleton getInstance( ) {
+		if(mathinstance == null) {
+			mathinstance = new MathSingleton();
+		}
+		return mathinstance;
+	} 
+	
+	
+	
+	public int add( {
+		return a+ b ;
+	}
+	public int subtract() {
+		return a- b ;
+	}
+	public int multiply() {
+		return a* b ;
+	}
+	public int divide() {
+		return a/ b ;
+	}
+	//other method เม็ททอดอื่นๆ
+}

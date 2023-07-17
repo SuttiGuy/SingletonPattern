@@ -1,0 +1,10 @@
+public class MathTestDriver {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+		MathSingleton m1 =   MathSingleton.getInstance();
+		System.out.println("316 + 13  = " +m1.add(316, 13));
+		
+	}
+
+}
